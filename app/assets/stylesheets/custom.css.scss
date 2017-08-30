@@ -1,2 +1,76 @@
+$navbar-default-bg: rgba(0, 0, 102, 0.8);
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#bs-example-navbar-collapse-1 :hover {
+    color: #fff;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1pax;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('9fen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin: 80px auto;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: rgba(6, 6, 113, 0.7);
+}
+
+.btn-xlarge:hover{
+    background-color: rgba(50, 50, 255, 0.9);
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
