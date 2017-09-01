@@ -50,6 +50,26 @@ $navbar-default-bg: rgba(0, 0, 102, 0.8);
     background-color: rgba(50, 50, 255, 0.9);
 }
 
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.descriptions {
+    margin-top: 5px;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 footer {
     margin-top: 45px;
     padding-top: 5px;
